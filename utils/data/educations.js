@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "BE - in Civil Engineering",
+    duration: "2019 - 2022",
+    institution: "Gujarat Technological University",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "DE - in Civil Engineering",
+    duration: "2015 - 2018",
+    institution: "Gujarat Technological University",
   },
   {
     id: 3,
     title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    duration: "2014 - 2015",
+    institution: "Gujarat Secondary and Higher Secondary Education Board",
   }
 ]

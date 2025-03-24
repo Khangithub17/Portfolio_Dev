@@ -1,17 +1,16 @@
 export const personalData = {
-  name: "ABU SAID",
-  profile: '/profile.png',
-  designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
-}
+  name: "Shahbaz Khan",
+  profile: "/profile.png",
+  designation: "Frontend Developer | MERN Stack Developer",
+  description: "My name is Shahbaz Khan. I am a passionate and enthusiastic Frontend Developer with expertise in React.js, JavaScript, and UI/UX design. I love to explore new technologies and solve problems through coding. With 1.5 years of experience, I have worked on multiple client projects, building high-performance web applications using React.js, Next.js, and No-Code platforms like Webflow, Wix, Framer, and Shopify. Currently, I am also expanding my knowledge in Data Analytics. I am always eager to take on new challenges and contribute to impactful projects.",
+  email: "codewithkhan17@gmail.com",
+  phone: "+918758268704",
+  address: "Gujarat, India",
+  github: "https://github.com/Khangithub17",
+  linkedIn: "https://www.linkedin.com/in/shahbazkhan17/",
+  twitter: "https://twitter.com/ig_khanop_17",
+  stackOverflow: "https://stackoverflow.com/users/22651669/shahbaz-khan",
+  facebook: "https://www.facebook.com/shahbazkhan17",
+  resume: "https://drive.google.com/file/d/1aMcu8pCNuGll7Gukxd63qB-O63sBiWkG/view?usp=sharing",
+  devUsername: "shahbazkhan17"
+};
