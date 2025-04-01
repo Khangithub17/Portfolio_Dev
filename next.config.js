@@ -21,6 +21,14 @@ module.exports = {
         hostname: 'media2.dev.to',
         pathname: '**',
       },
+      {
+        protocol: 'https',
+        hostname: '**',
+      }
     ],
   },
+  // Remove target: 'server' as it's causing issues with client components
+  poweredByHeader: false,
+  compress: true,
+  generateEtags: true,
 }
