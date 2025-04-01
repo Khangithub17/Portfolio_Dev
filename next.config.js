@@ -31,9 +31,8 @@ module.exports = {
   poweredByHeader: false,
   compress: true,
   generateEtags: true,
-  // Add experimental features for better client-side handling
+  // Remove experimental features that might cause issues
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['react-icons'],
   },
   // Configure webpack to handle client-side modules
@@ -48,4 +47,6 @@ module.exports = {
     }
     return config;
   },
+  // Add output configuration
+  output: 'standalone',
 }
