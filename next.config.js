@@ -31,4 +31,21 @@ module.exports = {
   poweredByHeader: false,
   compress: true,
   generateEtags: true,
+  // Add experimental features for better client-side handling
+  experimental: {
+    optimizeCss: true,
+    optimizePackageImports: ['react-icons'],
+  },
+  // Configure webpack to handle client-side modules
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        net: false,
+        tls: false,
+      };
+    }
+    return config;
+  },
 }
